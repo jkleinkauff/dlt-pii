@@ -1,0 +1,13 @@
+# ignore secrets, virtual environments and typical python compilation artifacts
+# secrets.toml - commentend, as it's just a local postgres instance
+# ignore basic python artifacts
+venv
+destiny_pii_data
+.env
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+# ignore duckdb
+*.duckdb
+*.wal
+env.sh

@@ -1,4 +1,12 @@
-This example shows how to use dlt to load pii data. dlt is library (not a platform) to quickly moc and run a meaningul pipeline dumping data to somewhere. It has a nice philosophy and, what's inside the package just works efficiently.
+<h1 align="center">
+    <strong>data load tool (dlt) — hashing and droping pii data</strong>
+</h1>
+<p align="center">
+
+This example shows how to use dlthub to process Personally Identifiable Information coming from a postgres database. dlt is library (not a platform) to quickly moc and run a meaningul pipeline dumping data to somewhere. It has a nice philosophy and what's inside the lib just works efficiently.
+
+## dlt official repo
+The official repo of dlt is https://github.com/dlt-hub/dlt. The site with documentation and GPT support is https://dlthub.com
 
 ## Prepare your venv
 ```bash

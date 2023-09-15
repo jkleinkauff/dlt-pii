@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 
-This example shows how to use dlthub to process Personally Identifiable Information coming from a postgres database. dlt is library (not a platform) to quickly moc and run a meaningul pipeline dumping data to somewhere. It has a nice philosophy and what's inside the lib just works efficiently.
+This example shows how to use dlthub to process Personally Identifiable Information coming from a postgres database. dlt is library ([not a platform](https://dlthub.com/product/#a-library-not-a-platform)) to quickly moc and run a meaningul pipeline dumping data to somewhere. It has a nice philosophy and what's inside the lib just works efficiently.
 
 ## dlt official repo
 The official repo of dlt is https://github.com/dlt-hub/dlt. The site with documentation and GPT support is https://dlthub.com
@@ -17,9 +17,9 @@ pip install -r requirements.txt #pip freezed
 
 ## dlt init
 
-Initialize a dlt project. The command will create python files to help you handle sql data with sqlalchemy interface. 
+This repo already contains all the necessary files to use dlt to extract data from postgres. You could use the command below if you want to compare or generate the sources from scratch.
 
-<em>The code inside /src was created with this command. To run this example, it is not necessary.</em>
+<em>The code inside [/src](./src/) was created with this command.</em>
 
 ```bash
 # dlt init <source> <destiny>
@@ -42,7 +42,7 @@ docker run --name postgres-dlt -e POSTGRES_PASSWORD=mysecretpassword -p 5432:543
 
 ## Run the example
 
-Call sql_database_pipeline.py to run a pipe that reads data from the postgres instance and load to a local folder as jsonl format. The script will also output the data to your terminal. Note how the email column will be hashed.
+Call [sql_database_pipeline.py](sql_database_pipeline.py) to run a pipe that reads data from the postgres instance and load to a local folder as jsonl format. The script will also output the data to your terminal. Note how the email column will be hashed.
 
 
 
